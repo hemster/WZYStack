@@ -44,6 +44,7 @@
     XCTAssertNotNil(self.stack, @"WZYStack object can be created.");
 }
 
+
 - (void)testPushANumberAndGetIt {
 //    WZYStack *stack = [WZYStack new];
     [self.stack push:2.3];
