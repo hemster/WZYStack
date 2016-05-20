@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9830B8AB1CEEB2D40036FB89 /* WZYStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 9830B8AA1CEEB2D40036FB89 /* WZYStack.m */; };
+		985DCC171CEEA96600DA3083 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 985DCC161CEEA96600DA3083 /* main.m */; };
+		985DCC1A1CEEA96600DA3083 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 985DCC191CEEA96600DA3083 /* AppDelegate.m */; };
+		985DCC1D1CEEA96600DA3083 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 985DCC1C1CEEA96600DA3083 /* ViewController.m */; };
+		985DCC201CEEA96600DA3083 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985DCC1E1CEEA96600DA3083 /* Main.storyboard */; };
+		985DCC221CEEA96600DA3083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 985DCC211CEEA96600DA3083 /* Assets.xcassets */; };
+		985DCC251CEEA96600DA3083 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985DCC231CEEA96600DA3083 /* LaunchScreen.storyboard */; };
+		985DCC301CEEA96600DA3083 /* WZYStackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 985DCC2F1CEEA96600DA3083 /* WZYStackTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		985DCC2C1CEEA96600DA3083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 985DCC0A1CEEA96600DA3083 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 985DCC111CEEA96600DA3083;
+			remoteInfo = WZYStack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9830B8A91CEEB2D40036FB89 /* WZYStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZYStack.h; sourceTree = "<group>"; };
+		9830B8AA1CEEB2D40036FB89 /* WZYStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZYStack.m; sourceTree = "<group>"; };
+		985DCC121CEEA96600DA3083 /* WZYStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZYStack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		985DCC161CEEA96600DA3083 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		985DCC181CEEA96600DA3083 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		985DCC191CEEA96600DA3083 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		985DCC1B1CEEA96600DA3083 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		985DCC1C1CEEA96600DA3083 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		985DCC1F1CEEA96600DA3083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		985DCC211CEEA96600DA3083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		985DCC241CEEA96600DA3083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		985DCC261CEEA96600DA3083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		985DCC2B1CEEA96600DA3083 /* WZYStackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZYStackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		985DCC2F1CEEA96600DA3083 /* WZYStackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZYStackTests.m; sourceTree = "<group>"; };
+		985DCC311CEEA96600DA3083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		985DCC0F1CEEA96600DA3083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		985DCC281CEEA96600DA3083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		985DCC091CEEA96600DA3083 = {
+			isa = PBXGroup;
+			children = (
+				985DCC141CEEA96600DA3083 /* WZYStack */,
+				985DCC2E1CEEA96600DA3083 /* WZYStackTests */,
+				985DCC131CEEA96600DA3083 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		985DCC131CEEA96600DA3083 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				985DCC121CEEA96600DA3083 /* WZYStack.app */,
+				985DCC2B1CEEA96600DA3083 /* WZYStackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		985DCC141CEEA96600DA3083 /* WZYStack */ = {
+			isa = PBXGroup;
+			children = (
+				985DCC181CEEA96600DA3083 /* AppDelegate.h */,
+				985DCC191CEEA96600DA3083 /* AppDelegate.m */,
+				985DCC1B1CEEA96600DA3083 /* ViewController.h */,
+				985DCC1C1CEEA96600DA3083 /* ViewController.m */,
+				985DCC1E1CEEA96600DA3083 /* Main.storyboard */,
+				985DCC211CEEA96600DA3083 /* Assets.xcassets */,
+				985DCC231CEEA96600DA3083 /* LaunchScreen.storyboard */,
+				985DCC261CEEA96600DA3083 /* Info.plist */,
+				985DCC151CEEA96600DA3083 /* Supporting Files */,
+				9830B8A91CEEB2D40036FB89 /* WZYStack.h */,
+				9830B8AA1CEEB2D40036FB89 /* WZYStack.m */,
+			);
+			path = WZYStack;
+			sourceTree = "<group>";
+		};
+		985DCC151CEEA96600DA3083 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				985DCC161CEEA96600DA3083 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		985DCC2E1CEEA96600DA3083 /* WZYStackTests */ = {
+			isa = PBXGroup;
+			children = (
+				985DCC2F1CEEA96600DA3083 /* WZYStackTests.m */,
+				985DCC311CEEA96600DA3083 /* Info.plist */,
+			);
+			path = WZYStackTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		985DCC111CEEA96600DA3083 /* WZYStack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 985DCC341CEEA96600DA3083 /* Build configuration list for PBXNativeTarget "WZYStack" */;
+			buildPhases = (
+				985DCC0E1CEEA96600DA3083 /* Sources */,
+				985DCC0F1CEEA96600DA3083 /* Frameworks */,
+				985DCC101CEEA96600DA3083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZYStack;
+			productName = WZYStack;
+			productReference = 985DCC121CEEA96600DA3083 /* WZYStack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		985DCC2A1CEEA96600DA3083 /* WZYStackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 985DCC371CEEA96600DA3083 /* Build configuration list for PBXNativeTarget "WZYStackTests" */;
+			buildPhases = (
+				985DCC271CEEA96600DA3083 /* Sources */,
+				985DCC281CEEA96600DA3083 /* Frameworks */,
+				985DCC291CEEA96600DA3083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				985DCC2D1CEEA96600DA3083 /* PBXTargetDependency */,
+			);
+			name = WZYStackTests;
+			productName = WZYStackTests;
+			productReference = 985DCC2B1CEEA96600DA3083 /* WZYStackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		985DCC0A1CEEA96600DA3083 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Hemster;
+				TargetAttributes = {
+					985DCC111CEEA96600DA3083 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					985DCC2A1CEEA96600DA3083 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 985DCC111CEEA96600DA3083;
+					};
+				};
+			};
+			buildConfigurationList = 985DCC0D1CEEA96600DA3083 /* Build configuration list for PBXProject "WZYStack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 985DCC091CEEA96600DA3083;
+			productRefGroup = 985DCC131CEEA96600DA3083 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				985DCC111CEEA96600DA3083 /* WZYStack */,
+				985DCC2A1CEEA96600DA3083 /* WZYStackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		985DCC101CEEA96600DA3083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985DCC251CEEA96600DA3083 /* LaunchScreen.storyboard in Resources */,
+				985DCC221CEEA96600DA3083 /* Assets.xcassets in Resources */,
+				985DCC201CEEA96600DA3083 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		985DCC291CEEA96600DA3083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		985DCC0E1CEEA96600DA3083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985DCC1D1CEEA96600DA3083 /* ViewController.m in Sources */,
+				9830B8AB1CEEB2D40036FB89 /* WZYStack.m in Sources */,
+				985DCC1A1CEEA96600DA3083 /* AppDelegate.m in Sources */,
+				985DCC171CEEA96600DA3083 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		985DCC271CEEA96600DA3083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985DCC301CEEA96600DA3083 /* WZYStackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		985DCC2D1CEEA96600DA3083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 985DCC111CEEA96600DA3083 /* WZYStack */;
+			targetProxy = 985DCC2C1CEEA96600DA3083 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		985DCC1E1CEEA96600DA3083 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				985DCC1F1CEEA96600DA3083 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		985DCC231CEEA96600DA3083 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				985DCC241CEEA96600DA3083 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		985DCC321CEEA96600DA3083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		985DCC331CEEA96600DA3083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		985DCC351CEEA96600DA3083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZYStack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Andrew.TDD.WZYStack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		985DCC361CEEA96600DA3083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZYStack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Andrew.TDD.WZYStack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		985DCC381CEEA96600DA3083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WZYStackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Andrew.TDD.WZYStackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZYStack.app/WZYStack";
+			};
+			name = Debug;
+		};
+		985DCC391CEEA96600DA3083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WZYStackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Andrew.TDD.WZYStackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZYStack.app/WZYStack";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		985DCC0D1CEEA96600DA3083 /* Build configuration list for PBXProject "WZYStack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				985DCC321CEEA96600DA3083 /* Debug */,
+				985DCC331CEEA96600DA3083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		985DCC341CEEA96600DA3083 /* Build configuration list for PBXNativeTarget "WZYStack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				985DCC351CEEA96600DA3083 /* Debug */,
+				985DCC361CEEA96600DA3083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		985DCC371CEEA96600DA3083 /* Build configuration list for PBXNativeTarget "WZYStackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				985DCC381CEEA96600DA3083 /* Debug */,
+				985DCC391CEEA96600DA3083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 985DCC0A1CEEA96600DA3083 /* Project object */;
+}
