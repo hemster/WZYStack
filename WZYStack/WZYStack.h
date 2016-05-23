@@ -9,8 +9,11 @@
 #import <Foundation/Foundation.h>
 
 @interface WZYStack : NSObject
+//@property (nonatomic, strong, nullable) NSMutableArray *numbers;
 
-- (void)push:(double)number;
 - (double)top;
+- (NSUInteger)count;
+- (void)push:(double)number;
+
 
 @end

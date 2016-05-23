@@ -10,7 +10,7 @@
 
 @interface WZYStack ()
 
-@property (nonatomic, strong) NSMutableArray *numbers;
+@property (nonatomic, strong, nullable) NSMutableArray *numbers;
 
 @end
 
@@ -30,6 +30,10 @@
 
 - (double)top {
     return [[self.numbers lastObject] doubleValue];
+}
+
+- (NSUInteger)count {
+    return [self.numbers count];
 }
 
 @end
