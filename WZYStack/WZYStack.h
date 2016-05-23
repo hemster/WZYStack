@@ -12,8 +12,8 @@
 //@property (nonatomic, strong, nullable) NSMutableArray *numbers;
 
 - (double)top;
+- (double)pop;
 - (NSUInteger)count;
 - (void)push:(double)number;
-
 
 @end

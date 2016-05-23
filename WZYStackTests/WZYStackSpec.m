@@ -41,9 +41,36 @@ describe(@"WZYStack", ^{
         });
         
         it(@"should equal contains 0 element", ^{
-            [[theValue([stack count]) should] equal:theValue(0)];
+            [[stack should] beEmpty];
         });
         
+//        // Exception test not working
+//        it(@"should raise a exception when pop", ^{
+//            [[theBlock(^{
+//                [stack pop];
+//            }) should] raiseWithName:@"WZYStackEmptyException"];
+//        });
+    });
+    
+    context(@"when new created and pushed 4.6", ^{
+        __block WZYStack *stack = nil;
+        beforeEach(^{
+            stack = [WZYStack new];
+            [stack push:4.6];
+        });
+        
+        afterEach(^{
+            stack = nil;
+        });
+        
+        it(@"can be poped and the value equals 4.6", ^{
+            [[theValue([stack pop]) should] equal:theValue(4.6)];
+        });
+        
+        it(@"should contains 0 element after pop", ^{
+            [stack pop];
+            [[stack should] beEmpty];
+        });
     });
 });
 

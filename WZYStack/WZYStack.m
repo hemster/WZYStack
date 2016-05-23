@@ -36,4 +36,14 @@
     return [self.numbers count];
 }
 
+- (double)pop {
+    if ([self count] == 0) {
+        [NSException raise:@"WZYStackEmptyException" format:@"Can not pop an empty stack."];
+    }
+    
+    double result = [self top];
+    [self.numbers removeLastObject];
+    return result;
+}
+
 @end
