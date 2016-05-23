@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95B2F9D7E70865E4CA3B87AE /* libPods-WZYStack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C1E0D05FAA4D8C4AC8C5EE /* libPods-WZYStack.a */; };
 		9830B8AB1CEEB2D40036FB89 /* WZYStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 9830B8AA1CEEB2D40036FB89 /* WZYStack.m */; };
+		985A77331CF2ABE60074E404 /* SimpleString.m in Sources */ = {isa = PBXBuildFile; fileRef = 985A77321CF2ABE60074E404 /* SimpleString.m */; };
+		985A77351CF2AD5B0074E404 /* WZYStackSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 985A77341CF2AD5B0074E404 /* WZYStackSpec.m */; };
 		985DCC171CEEA96600DA3083 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 985DCC161CEEA96600DA3083 /* main.m */; };
 		985DCC1A1CEEA96600DA3083 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 985DCC191CEEA96600DA3083 /* AppDelegate.m */; };
 		985DCC1D1CEEA96600DA3083 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 985DCC1C1CEEA96600DA3083 /* ViewController.m */; };
@@ -28,8 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		558F5AA249C937D02059E53E /* Pods-WZYStack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZYStack.release.xcconfig"; path = "Pods/Target Support Files/Pods-WZYStack/Pods-WZYStack.release.xcconfig"; sourceTree = "<group>"; };
+		8517C205E0F0399B5047C4F0 /* Pods-WZYStack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZYStack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WZYStack/Pods-WZYStack.debug.xcconfig"; sourceTree = "<group>"; };
 		9830B8A91CEEB2D40036FB89 /* WZYStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZYStack.h; sourceTree = "<group>"; };
 		9830B8AA1CEEB2D40036FB89 /* WZYStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZYStack.m; sourceTree = "<group>"; };
+		985A77321CF2ABE60074E404 /* SimpleString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleString.m; sourceTree = "<group>"; };
+		985A77341CF2AD5B0074E404 /* WZYStackSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZYStackSpec.m; sourceTree = "<group>"; };
 		985DCC121CEEA96600DA3083 /* WZYStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZYStack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		985DCC161CEEA96600DA3083 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		985DCC181CEEA96600DA3083 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,6 +50,7 @@
 		985DCC2B1CEEA96600DA3083 /* WZYStackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZYStackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		985DCC2F1CEEA96600DA3083 /* WZYStackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZYStackTests.m; sourceTree = "<group>"; };
 		985DCC311CEEA96600DA3083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C1E0D05FAA4D8C4AC8C5EE /* libPods-WZYStack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WZYStack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95B2F9D7E70865E4CA3B87AE /* libPods-WZYStack.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,12 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C55EC3598B6C883D36DFB16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6C1E0D05FAA4D8C4AC8C5EE /* libPods-WZYStack.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		985DCC091CEEA96600DA3083 = {
 			isa = PBXGroup;
 			children = (
 				985DCC141CEEA96600DA3083 /* WZYStack */,
 				985DCC2E1CEEA96600DA3083 /* WZYStackTests */,
 				985DCC131CEEA96600DA3083 /* Products */,
+				9B6FEC241C97307658EAD87C /* Pods */,
+				5C55EC3598B6C883D36DFB16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,8 +131,19 @@
 			children = (
 				985DCC2F1CEEA96600DA3083 /* WZYStackTests.m */,
 				985DCC311CEEA96600DA3083 /* Info.plist */,
+				985A77321CF2ABE60074E404 /* SimpleString.m */,
+				985A77341CF2AD5B0074E404 /* WZYStackSpec.m */,
 			);
 			path = WZYStackTests;
+			sourceTree = "<group>";
+		};
+		9B6FEC241C97307658EAD87C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8517C205E0F0399B5047C4F0 /* Pods-WZYStack.debug.xcconfig */,
+				558F5AA249C937D02059E53E /* Pods-WZYStack.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 985DCC341CEEA96600DA3083 /* Build configuration list for PBXNativeTarget "WZYStack" */;
 			buildPhases = (
+				7A2EEE8530C7A55F42BD3268 /* 📦 Check Pods Manifest.lock */,
 				985DCC0E1CEEA96600DA3083 /* Sources */,
 				985DCC0F1CEEA96600DA3083 /* Frameworks */,
 				985DCC101CEEA96600DA3083 /* Resources */,
+				667FE7EE667208C9222A9E82 /* 📦 Embed Pods Frameworks */,
+				34989B47F8E7E64DA5FE086C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,6 +244,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34989B47F8E7E64DA5FE086C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WZYStack/Pods-WZYStack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		667FE7EE667208C9222A9E82 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WZYStack/Pods-WZYStack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A2EEE8530C7A55F42BD3268 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		985DCC0E1CEEA96600DA3083 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -227,6 +308,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				985A77351CF2AD5B0074E404 /* WZYStackSpec.m in Sources */,
+				985A77331CF2ABE60074E404 /* SimpleString.m in Sources */,
 				985DCC301CEEA96600DA3083 /* WZYStackTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +428,7 @@
 		};
 		985DCC351CEEA96600DA3083 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8517C205E0F0399B5047C4F0 /* Pods-WZYStack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WZYStack/Info.plist;
@@ -356,6 +440,7 @@
 		};
 		985DCC361CEEA96600DA3083 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 558F5AA249C937D02059E53E /* Pods-WZYStack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WZYStack/Info.plist;
@@ -367,6 +452,7 @@
 		};
 		985DCC381CEEA96600DA3083 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8517C205E0F0399B5047C4F0 /* Pods-WZYStack.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WZYStackTests/Info.plist;
@@ -379,6 +465,7 @@
 		};
 		985DCC391CEEA96600DA3083 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 558F5AA249C937D02059E53E /* Pods-WZYStack.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WZYStackTests/Info.plist;
@@ -399,7 +486,7 @@
 				985DCC331CEEA96600DA3083 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		985DCC341CEEA96600DA3083 /* Build configuration list for PBXNativeTarget "WZYStack" */ = {
 			isa = XCConfigurationList;
@@ -408,7 +495,7 @@
 				985DCC361CEEA96600DA3083 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		985DCC371CEEA96600DA3083 /* Build configuration list for PBXNativeTarget "WZYStackTests" */ = {
 			isa = XCConfigurationList;
@@ -417,7 +504,7 @@
 				985DCC391CEEA96600DA3083 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
