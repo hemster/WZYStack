@@ -40,6 +40,10 @@ describe(@"WZYStack", ^{
             [[theValue([stack top]) should] equal:4.6 withDelta:0.001];
         });
         
+        it(@"should equal contains 0 element", ^{
+            [[theValue([stack count]) should] equal:theValue(0)];
+        });
+        
     });
 });
 
